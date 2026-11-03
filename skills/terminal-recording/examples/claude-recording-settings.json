@@ -1,0 +1,8 @@
+{
+  "theme": "dark",
+  "spinnerTipsEnabled": false,
+  "showTurnDuration": false,
+  "permissions": {
+    "deny": ["Agent", "Task", "Bash"]
+  }
+}

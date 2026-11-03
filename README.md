@@ -7,6 +7,9 @@
 | 스킬 | 하는 일 |
 |---|---|
 | [`mac-app-ax`](skills/mac-app-ax/) | 브라우저가 아닌 맥 앱을 접근성 트리(AX)로 읽고 조작하는 헬퍼를 만들어 에이전트에 연결합니다 |
+| [`terminal-recording`](skills/terminal-recording/) | Claude Code 같은 터미널 프로그램을 전용 창에서 자동으로 입력 · 대기하며 그 창만 녹화합니다 |
+| [`keyword-research`](skills/keyword-research/) | 유튜브 제목을 정하기 전에 YouTube · Google 자동완성으로 실제 검색어를 확인합니다 |
+| [`thumbnail-checks`](skills/thumbnail-checks/) | 유튜브 썸네일을 TV · 휴대폰 목록 크기로 미리 보고 원칙대로 점검합니다 |
 
 각 스킬의 조건 · 필요한 것 · 사용 예는 그 폴더의 `README.md`에 있습니다.
 

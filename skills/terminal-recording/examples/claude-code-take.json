@@ -1,0 +1,15 @@
+{
+  "workdir": "~/demo-project",
+  "command": "env CLAUDE_CONFIG_DIR=$HOME/.claude-recording CLAUDE_CODE_HIDE_CWD=1 ENABLE_CLAUDEAI_MCP_SERVERS=false claude --model haiku",
+  "ready": "shift\\+tab",
+  "busy": "esc to interrupt",
+  "watch": {"COMPACT": "Compacting conversation", "GAUGE": "(\\d+)% until auto-compact"},
+  "out": "takes",
+  "steps": [
+    {"type": "README.md를 읽고 이 프로젝트가 하는 일을 세 줄로 요약해 줘"},
+    {"wait_idle": true},
+    {"pause": 3},
+    {"type": "/exit"},
+    {"pause": 2}
+  ]
+}
