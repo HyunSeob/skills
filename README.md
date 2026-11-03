@@ -45,9 +45,9 @@
 스킬 폴더 `skills/mac-app-ax`를 쓰는 에이전트의 스킬 폴더에 복사하거나 링크합니다.
 
 ```bash
-git clone https://github.com/<OWNER>/<REPO>.git
+git clone https://github.com/HyunSeob/skills.git
 mkdir -p ~/.claude/skills
-ln -s "$PWD/<REPO>/skills/mac-app-ax" ~/.claude/skills/mac-app-ax
+ln -s "$PWD/skills/skills/mac-app-ax" ~/.claude/skills/mac-app-ax
 ```
 
 Codex는 `~/.codex/skills/`에 같은 방식으로 둡니다. 필요한 것: macOS, Xcode 명령줄 도구(`xcode-select --install`, `swiftc`),
