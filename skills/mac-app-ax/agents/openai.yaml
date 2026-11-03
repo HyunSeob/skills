@@ -1,0 +1,4 @@
+interface:
+  display_name: "mac-app-ax"
+  short_description: "브라우저가 아닌 맥 앱을 접근성 트리(AX)로 읽고 조작하는 헬퍼를 만들어 에이전트에 연결"
+  default_prompt: "$mac-app-ax 스킬로 이 맥 앱에서 자주 하는 일을 AX 헬퍼로 만들어줘."
