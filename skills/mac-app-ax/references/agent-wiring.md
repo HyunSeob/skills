@@ -31,5 +31,3 @@ claude mcp add myapp-ax -- /절대경로/.venv/bin/python /절대경로/mcp_serv
 - 결과를 읽는 법: `items`는 보이는 범위, `hasMore=false`도 전체의 끝이 아님, 모르는 값은 추측하지 않음.
 - 되돌릴 수 없는 동작은 사용자가 명시적으로 요청한 대상 · 내용에만, 요청 ID 규칙.
 - MCP가 연결되지 않았을 때 쓰는 CLI 경로 (사용자 텍스트는 JSON 파일로).
-
-카카오톡 사례: [`kakaotalk-ax`의 스킬](https://github.com/HyunSeob/kakaotalk-ax/tree/main/skills/kakaotalk-ax).

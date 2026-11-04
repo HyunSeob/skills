@@ -4,7 +4,7 @@ Usage:
 
     journal = OperationJournal(Path.home() / ".config/myapp-ax/operations")
     result = journal.run(
-        operation_id="send-001",
+        operation_id="add-001",
         target={"window": "Exact title", "text": text},
         baseline=lambda: read_state(),               # read the UI before acting
         dispatch=lambda: call_bridge("press", ...),  # one native call, never retried

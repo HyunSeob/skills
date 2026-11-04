@@ -74,7 +74,7 @@ def myapp_ax_search(window_title: str, query: str) -> str:
 def confirm_factory(window_title):
     def confirm(baseline):
         # TODO: read the UI again and return True only when the expected change is visible,
-        # e.g. one more message row whose text hash matches and an empty composer.
+        # e.g. one more row whose text hash matches and an empty input field.
         state = bridge({"windowTitle": window_title, "action": "inspect"})
         return state.get("status") == "ready" and baseline is not None
     return confirm

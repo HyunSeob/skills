@@ -23,8 +23,8 @@ var actionLog: [[String: Any]] = []
 
 // TODO: labels differ per UI language; prefer AXIdentifier when the app sets one.
 let targetButtonIdentifiers: [String] = []
-let targetButtonLabels = ["보내기", "전송", "Send"]
-let composerLabels = ["메시지 입력", "Message"]
+let targetButtonLabels = ["저장", "Save"]
+let composerLabels = ["본문", "Body"]
 
 func attr(_ el: AXUIElement, _ name: String) -> CFTypeRef? {
     var value: CFTypeRef?
