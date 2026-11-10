@@ -1,0 +1,4 @@
+interface:
+  display_name: "Himalaya 메일"
+  short_description: "로컬 Himalaya로 메일 검색·열람, 첨부 저장과 초안·발송 처리"
+  default_prompt: "$himalaya로 설정된 계정에서 최근 메일을 확인하고 필요한 내용을 요약해줘."
